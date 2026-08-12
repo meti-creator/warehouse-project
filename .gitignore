@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# secrets
+.env
+
+# data — never commit raw data
+data/raw/*.csv
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# editor
+.vscode/
